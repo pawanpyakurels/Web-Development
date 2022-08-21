@@ -1,49 +1,51 @@
-body{
-background-image:url(https://aedificogroup.com/wp-content/uploads/2021/08/IT-skills.png)
-}
-header{
+.frame{
+ 
 
-text-align:center;
-}
-.domain{
-
-width:80%; /*80% of body */
-background-color:#f6fdd3;
-margin-left:auto;
-margin-right:auto;
-padding-left:20px;
-padding-right:20px;
-}
-.projects p, .courses p{
-
-display:inline-block;
+  width:500px;
+  padding:50px;
+  margin:20px auto;
+  background-color:yellow;
 
 }
-.title{
 
-text-align:left;
-width:49%;
-}
-.organization{
-text-align:right;
-width:49%;
-}
-hr{
-  height:5px;
-  background-color:brown;
-  border-color:black;
-  border-width:3px;
 
-}
-a:visited{
-	color:grey;
-}
-a:hover{
-
-color:red;
-}
-
-footer{
+.canvas{
 	
+background-color:#4d0f00;
+	width:500px;
+	height:600px;
+	overflow:hidden;
+	
+}
+
+.one{
+  
+  width:425px;
+  height:125px;
+  background-color:#efb762;
+  margin:20px auto;
+  
+
+
+}
+.two{
+
+width:475px;
+height:200px;
+background-color:#efb762;
+margin:0 auto  20px;
+
+}
+.three{
+width:91%;
+height:28%;
+background-color:red;
+margin:0 auto 20px;
+
+}
+h3,h1{
+	
+	color:blue;
 	text-align:center;
+	
 }
