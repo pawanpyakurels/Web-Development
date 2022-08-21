@@ -3,4 +3,23 @@ background-color:#ffffe0;
 text-align:center;
 padding:10px;
 }
+iframe{
+    display:block;
+}
+.content{
+    max-width:max-content;
+    margin:auto;
+
+}
+.footerd{
+   
+    background-color:lightgrey;
+    text-align:center;
+    font-weight:bold;
+  
+}
+.footerd p{
+    padding-top:5%;
+    padding-bottom:5%;
+}
 
