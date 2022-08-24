@@ -1,0 +1,53 @@
+.container{
+    border:solid 2px red;
+    height:100%;
+    position:absolute;
+    width:100%;
+}
+.header{
+    border:solid 2px black;
+    height:20%;
+    width:100%;
+}
+.footer{
+    border:solid 2px grey;
+    height:20%;
+    width:100%;
+    position:relative;
+   top:59%;
+}
+.body{
+    border:solid 2px green;
+    height:60%;
+    width:100%;
+    position:relative;
+    background-color:cornsilk;
+    bottom:22%;
+    
+
+}
+.archive{
+    border:solid 2px green;
+    height:100%;
+    width:20%;
+    position:relative;
+    background-color:cornsilk;
+    left:80%;
+    
+
+}
+.pageTitle{
+    border:solid 2px pink;
+    height:30%;
+    width:30%;
+    position:relative;
+    left:35%;
+    
+    background-color:cornsilk;
+   
+    
+
+}
+
+
+
