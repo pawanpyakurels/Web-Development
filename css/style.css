@@ -1,7 +1,9 @@
 .header-bg{
 background-color:#ffffe0;
 text-align:center;
-padding:10px;
+padding:20px;
+padding-top: 10px;
+padding-bottom:30px;
 }
 iframe{
     display:block;

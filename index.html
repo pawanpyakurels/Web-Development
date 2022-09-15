@@ -3,27 +3,58 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
   <title>Pawan Pyakurel</title>
-  <link href="css/style.css" rel="stylesheet" />
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
+ 
+  <meta charset="utf8" />
+  <meta name="viewport" content="width=device=width, initial-scale=1" />
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
-  <div class="container">
+  <div class="container-fluid">
     <div class="header-bg">
       <div class="header">
         <h1>Pawan Pyakurel</h1>
-        <p>Welcome to Pawan's World</p>
-        <p>I hope you'll have a good time here!
-        <p>
-        <p> Loads of love!</p>
+        <p></p>
+        <p></p>
+        <p></p>
       </div>
     </div>
+    <a class="btn btn-primary btn-block btn btn-info" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" >
+     Please let me know what brings you here by clicking on this ribbon. I will be more than happy to read.
+    </a>
+    
+  <div  class="collapse" id="collapseExample">
+
+  <form action="php/index.php" method="post">
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Email address</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" name="email" placeholder="name@example.com">
+    </div>
+ 
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">What brings you here?</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" placeholder="I just wanted to have a look on your website.
+       I am Joy, your classmate at Puspanjali Vidyalaya. Hope, you are doing good in life?"></textarea>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+   
+
 
     <div class="content">
-      <p><strong>Building the projects to test my limits so that I can upgrade them.</strong></p>
+     
 
       <div>
 
